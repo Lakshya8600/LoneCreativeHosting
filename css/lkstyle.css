@@ -15,6 +15,7 @@
     display: flex;
     position: relative;
     left: -50px;
+    /* top: -2rem; */
     top: -70px;
 }
 
@@ -26,6 +27,19 @@
     top: 15px;
     left: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    #logotitle {
+      font-size: 30px;
+    }
+    #logodiv{
+        left: -35px;
+        top: -35px;
+    }
+    #logoimage{
+        height: 70px;
+    }
+  }
 
 .btn-info{
     /* background: linear-gradient(241.45deg, #F205C0 37.42%, rgba(242, 5, 192, 0) 135.33%); */
